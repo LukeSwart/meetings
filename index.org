@@ -32,10 +32,9 @@
 #+PROPERTY: BillTo2 PO Box 80021
 #+PROPERTY: BillTo3 Seattle, WA USA
 
-
 * OpenSeattle
 Repo here (contributions welcome!): \\
-git@github.com:LukeSwart/meetings.git
+https://github.com/LukeSwart/meetings.git \\
 
 ** Open Seattle Orientation 2015.10.01
 Presented with Christina Montilla at general meetup.\\
@@ -78,7 +77,7 @@ CLOCK: [2015-09-03 Thu 17:40]--[2015-09-03 Thu 21:06] => 2015-09-03 Thu 17:30 --
 Official Minutes found here:\\
 http://cttab.seattle.gov/2015/ \\
 Repo here (contributions welcome!):\\
-git@github.com:LukeSwart/meetings.git \\
+https://github.com/LukeSwart/meetings.git \\
 
 ** Monthly CTAB 2015.10.13
 
@@ -88,7 +87,7 @@ CLOCK: [2015-10-13 Tue 18:08]--[2015-10-13 Tue 20:02] => 2015-10-13 Tue 18:00 --
 :END:
 
 *** Some highlights:
- - *how does the smart sensor program fit in with data privacy issue: "the city will not be collecting info that they need".*\\\\
+ - *how does the smart sensor program fit in with data privacy issue: "the city will not be collecting info that they need".*\\
  http://www.govtech.com/data/Smart-Cities-Understanding-the-Untapped-Value-of-Sensor-Data.html
  - It seems like the initiative is to "measure everything in the public", which seems antithetical to one of the core tenants of Seattle's new policy.\\
  - *Desire to get more low income, minority, and lgbt members on the CTAB board. Also want OpenSeattle folks on the CTAB board*\\
