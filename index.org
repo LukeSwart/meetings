@@ -1,0 +1,226 @@
+
+#+TITLE: Luke's Public Meeting Notes
+# -*- mode: org -*-
+#+INFOJS_OPT: view:overview toc:true
+#+STARTUP: indent
+#+TODO: TODO IN-PROGRESS WAITING DONE
+
+#+HTML_HEAD: <link rel="stylesheet" type="text/css" href="styles/bigblow/css/htmlize.css"/>
+#+HTML_HEAD: <link rel="stylesheet" type="text/css" href="styles/bigblow/css/bigblow.css"/>
+#+HTML_HEAD: <link rel="stylesheet" type="text/css" href="styles/bigblow/css/hideshow.css"/>
+
+#+HTML_HEAD: <script type="text/javascript" src="styles/bigblow/js/jquery-1.11.0.min.js"></script>
+#+HTML_HEAD: <script type="text/javascript" src="styles/bigblow/js/jquery-ui-1.10.2.min.js"></script>
+
+#+HTML_HEAD: <script type="text/javascript" src="styles/bigblow/js/jquery.localscroll-min.js"></script>
+#+HTML_HEAD: <script type="text/javascript" src="styles/bigblow/js/jquery.scrollTo-1.4.3.1-min.js"></script>
+#+HTML_HEAD: <script type="text/javascript" src="styles/bigblow/js/jquery.zclip.min.js"></script>
+#+HTML_HEAD: <script type="text/javascript" src="styles/bigblow/js/bigblow.js"></script>
+#+HTML_HEAD: <script type="text/javascript" src="styles/bigblow/js/hideshow.js"></script>
+#+HTML_HEAD: <script type="text/javascript" src="styles/lib/js/jquery.stickytableheaders.min.js"></script>
+
+#+TYP_TODO: TODO MAYBE WAITING NEXT DONE
+#+STARTUP: showall
+#+STARTUP: hidestars
+#+FILETAGS: WORK
+#+CONSTANTS: customer=Georgetown Community Council rate=25.00
+#+PROPERTY: RemitTo1 HaxGeo
+#+PROPERTY: RemitTo2 1463 E Republican St #182
+#+PROPERTY: RemitTo3 Seattle, WA 98112
+#+PROPERTY: Terms Net 30
+#+PROPERTY: BillTo1 Georgetown Community Council
+#+PROPERTY: BillTo2 PO Box 80021
+#+PROPERTY: BillTo3 Seattle, WA USA
+
+
+* OpenSeattle
+
+** Open Seattle Orientation 2015.10.01
+Presented with Christina Montilla at general meetup.
+Met Yuki and other new contributors. Will ping them next week about upcoming Duwamish code days
+Popup arcade was pretty interesting, but we should have shown more! popuparcade.org
+A slide including the gifs from Mini Maker Faire would have been nice
+Also, there are too many slides on the current orientation presentation. This could be improved.
+New slides are at: http://slides.com/openseattle/orientation/#/
+
+*** timelog
+:LOGBOOK:
+CLOCK: [2015-10-01 Thu 17:15]--[2015-10-01 Thu 21:00] => 2015-10-01 Thu 17:15 -- 2015-10-01 Thu 21:00 @  3.75
+
+:END:
+
+** Open Project Night 2015.9.15
+Helped Jo Chong with issue #128 - CSS hidden header\\
+Talk with Sarah about TMF volunteer guidance\\
+Talk with Seth about sponsors for upcoming events\\
+Talk with Darryl about future contributions\\
+Received SSL setup guidance from Andrew Stambrosky\\
+
+*** timelog
+:LOGBOOK:
+CLOCK: [2015-09-15 Tue 17:36]--[2015-09-15 Tue 21:04] => 2015-09-15 Tue 17:30 -- 2015-09-15 Tue 21:00 @  3.50
+:END:
+
+** Open Project Night 2015.9.03
+onboarding Julian, Sadia, Brady, Darryl, Layla\\
+met Julian and Ann Marie\\
+update documentation\\
+*** timelog
+:LOGBOOK:
+CLOCK: [2015-09-03 Thu 17:40]--[2015-09-03 Thu 21:06] => 2015-09-03 Thu 17:30 -- 2015-09-03 Thu 21:15 @  3.75
+:END:
+
+
+
+* CTAB
+Official Minutes found here:
+http://cttab.seattle.gov/2015/
+** Monthly CTAB 2015.09.08
+*** timelog
+:LOGBOOK:
+CLOCK: [2015-09-08 Tue 18:03]--[2015-09-08 Tue 20:14] => 2015-09-08 Tue 18:00 -- 2015-09-08 Tue 20:15 @  2.25
+:END:
+
+*** Intros, agenda approval
+*** Chief Technology Officer Update: including citywide IT Consolidation, privacy initiative, broadband and Digital Equity Initiative progress report - Michael Mattmiller
+Seattle awarded grant for open data program\\
+Eastern washington data center - consolidated center\\
+OC365 email migration is on track\\
+ - new Seattle IT dept consolidated from 15 existing depts\\
+ this will be transparent\\
+ new department in effect April 2016 (?)\\
+\\
+*broadband study*\\
+ * Michael will meet with all mayors across WA to discuss broadband issue\\
+ * 140K of 270K seattle homes have broadband\\
+ * Bruce Blood is leading the interactive broadband map\\
+\\
+*privacy*\\
+ - privacy principles passed back in March\\
+ - the principles guide how to think of data collection and data use\\
+ - full council briefing on 10/5\\
+\\
+ - SDOT cyclic a system privacy system purchase - privacy concerns\\
+ - Seattle determined that privacy issues are minimal\\
+ - but they will get a 3rd party audit\\
+ - SDOT open tracking technology\\
+\\
+DOIT annual report\\
+RSGI lens for diversity staffing\\
+
+*** Announcements
+**** Christopher - masters in info security and privacy
+need to be informed about connected cars tech\\ cites crosscut reporter david coleman article\\
+"The tracking system is a surveillance system, but CTO did not recognize it as such"\\
+there has been no audit of the system\\
+data is transmitted to 3rd parties, but we don't know about encryption\\
+Norm Mah - says "we cannot identify individual users b/c it is aggregated"\\
+but Norm is wrong - his analogy of the "baseball ticket" is incorrect b/c we don't carry baseball tix everywhere we go\\
+member of WA confidentiality program\\
+
+*Michael's response:*\\
+cyclic read captures MAC address\\
+MAC address is encrypted and transmitted, not stored locally\\
+What ciphers is it using? SHA256-base\\
+"not possible to take MAC address\\
+but chris said this system is similar to CISCO's system  (which is bad, and one can go back and id users)\\
+Mike - what is the right way to protect/limit data collection, but it's not always mutually exclusive\\
+
+
+**** Bruce Blood broadband map
+bruce.blood@seattle.gov\\
+he will send out the url for testing\\
+MLAB - product launch, and doing development for free\\
+seattle.org/broadbandmap.org\\
+we don't know if it is open source\\
+
+
+*** Pay by Phone Parking - follow-up from earlier meeting: Mary Catherine Snyder, Seattle Department of Transportation (SDOT)
+pay-by-phone app vendor - pay for parking via app\\
+you can extend your time and get text message reminders\\
+*** Comcast Internet Essentials low income program
+non-branded brochure (Comcast cannot brand it) was crafted and sent to students to increase participation\\
+
+*** Comprehensive Plan: input on technology elements (in prep for Sept 16th Planning Commission meeting): Nourisha Wells
+
+*** Networking Break
+*** Privacy Committee: including report on Collaborathon - Beryl Fernandes
+*** Cable and Broadband Committee: Amy Hirotaka
+pre-briefing on 9/16\\
+actual public comment on 11/18\\
+*** Digital Inclusion Committee, including Technology Matching Fund criteria discussion: Jose Vasquez
+
+ - TMF computer lab - teaching children\\
+digital inclusion issues for TMF at 9/22 6pm at beacon hill library\\
+\\
+ - update the TMF criteria to make a stronger emphasis on underrepresented communities for more measureable outcomes\\
+
+# comment here
+recommendations for the staff \\
+inviting previous grantees to learn/partner with new applicants\\
+\\
+ppl from the inside actual running these programs, instead of ppl coming from outside\\
+"applicants must actively seek involvement of community member and/or business proprieters" in all possible roles including training\\
+\\
+Luke asked "is there is motion to add new measurement criteria? Any suggestions for measuring this criteria?"\\
+jobs/employment/training is number 1, and there is lots of frustration that they are being left out\\
+the funds are earmarked for low-income and communities of color\\
+
+*** E-Gov Committee: Joneil Sampana
+min of 500 folks - data interns will showcase their work\\
+Egov registrants can attend VIP session 6-8 pm at discount rate.\\
+
+*** Board member talents and composition needs for future members
+dana position is open in October\\
+Beryl and Ben's positions will open in January\\
+Joneil - is there a framework used in the past to select such members? Chair: via email is fine\\
+list the strengths/weaknesses, and put it on October agenda\\
+*** Additional Public Comment
+Christopher - wants to talk with Seattle Privacy Coalition about facial recognition system for bar kickouts\\
+Greta - Is there a way to negotiate with Comcast to make 25 or 50 Mb/s the minimum standard instead of wasting people's time\\
+
+*** Summary of action, to do's & next meeting items
+ - test interactive broadband in ~3 weeks\\
+ - get access to auto school list and share list\\
+ - explore potential actions to take for Christopher's facial recognition system\\
+
+* Weekly Timesheet
+** 2015 week #38: September 14 - September 20
+#+BEGIN: columnview :hlines 1 :id global
+| /Project/   |  Mon |  Tue |  Wed |  Thu |  Fri |  Sat |  Sun | /Total/ |
+|-------------+------+------+------+------+------+------+------+---------|
+| OpenSeattle |      | 3.50 |      |      |      |      |      |    3.50 |
+|-------------+------+------+------+------+------+------+------+---------|
+| /Daily/     | 0.00 | 3.50 | 0.00 | 0.00 | 0.00 | 0.00 | 0.00 |    3.50 |
+#+TBLFM: @2$9..@-1$9=vsum($2..$8);%.2f;::@>$2..@>$9='(format "%3.2f" (apply '+ '(@2..@-1)));N;
+#+END:
+
+** 2015 week #37: September 07 - September 13
+#+BEGIN: columnview :hlines 1 :id global
+| /Project/ |  Mon |  Tue |  Wed |  Thu |  Fri |  Sat |  Sun | /Total/ |
+|-----------+------+------+------+------+------+------+------+---------|
+| CTAB      |      | 2.25 |      |      |      |      |      |    2.25 |
+|-----------+------+------+------+------+------+------+------+---------|
+| /Daily/   | 0.00 | 2.25 | 0.00 | 0.00 | 0.00 | 0.00 | 0.00 |    2.25 |
+#+TBLFM: @2$9..@-1$9=vsum($2..$8);%.2f;::@>$2..@>$9='(format "%3.2f" (apply '+ '(@2..@-1)));N;
+#+END:
+** 2015 week #36: August 31 - September 06
+#+BEGIN: columnview :hlines 1 :id global
+| /Project/   |  Mon |  Tue |  Wed |  Thu |  Fri |  Sat |  Sun | /Total/ |
+|-------------+------+------+------+------+------+------+------+---------|
+| OpenSeattle |      |      |      | 3.75 |      |      |      |    3.75 |
+|-------------+------+------+------+------+------+------+------+---------|
+| /Daily/     | 0.00 | 0.00 | 0.00 | 3.75 | 0.00 | 0.00 | 0.00 |    3.75 |
+#+TBLFM: @2$9..@-1$9=vsum($2..$8);%.2f;::@>$2..@>$9='(format "%3.2f" (apply '+ '(@2..@-1)));N;
+#+END:
+
+** 2015 week #40: September 28 - October 04
+#+BEGIN: columnview :hlines 1 :id global
+| /Project/   |  Mon |  Tue |  Wed |  Thu |  Fri |  Sat |  Sun | /Total/ |
+|-------------+------+------+------+------+------+------+------+---------|
+| OpenSeattle |      |      |      | 3.75 |      |      |      |    3.75 |
+|-------------+------+------+------+------+------+------+------+---------|
+| /Daily/     | 0.00 | 0.00 | 0.00 | 3.75 | 0.00 | 0.00 | 0.00 |    3.75 |
+#+TBLFM: @2$9..@-1$9=vsum($2..$8);%.2f;::@>$2..@>$9='(format "%3.2f" (apply '+ '(@2..@-1)));N;
+#+END:
+* Timesheet
