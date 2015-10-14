@@ -1,5 +1,5 @@
 
-#+TITLE: Luke's Public Meeting Notes
+#+TITLE: Public Meeting Notes
 # -*- mode: org -*-
 #+INFOJS_OPT: view:overview toc:true
 #+STARTUP: indent
@@ -34,14 +34,16 @@
 
 
 * OpenSeattle
+Repo here (contributions welcome!): \\
+git@github.com:LukeSwart/meetings.git
 
 ** Open Seattle Orientation 2015.10.01
-Presented with Christina Montilla at general meetup.
-Met Yuki and other new contributors. Will ping them next week about upcoming Duwamish code days
-Popup arcade was pretty interesting, but we should have shown more! popuparcade.org
-A slide including the gifs from Mini Maker Faire would have been nice
-Also, there are too many slides on the current orientation presentation. This could be improved.
-New slides are at: http://slides.com/openseattle/orientation/#/
+Presented with Christina Montilla at general meetup.\\
+Met Yuki and other new contributors. Will ping them next week about upcoming Duwamish code days\\
+Popup arcade was pretty interesting, but we should have shown more! popuparcade.org\\
+A slide including the gifs from Mini Maker Faire would have been nice\\
+Also, there are too many slides on the current orientation presentation. This could be improved.\\
+New slides are at: http://slides.com/openseattle/orientation/#/\\
 
 *** timelog
 :LOGBOOK:
@@ -73,8 +75,91 @@ CLOCK: [2015-09-03 Thu 17:40]--[2015-09-03 Thu 21:06] => 2015-09-03 Thu 17:30 --
 
 
 * CTAB
-Official Minutes found here:
-http://cttab.seattle.gov/2015/
+Official Minutes found here:\\
+http://cttab.seattle.gov/2015/ \\
+Repo here (contributions welcome!):\\
+git@github.com:LukeSwart/meetings.git \\
+
+** Monthly CTAB 2015.10.13
+
+*** timelog
+:LOGBOOK:
+CLOCK: [2015-10-13 Tue 18:08]--[2015-10-13 Tue 20:02] => 2015-10-13 Tue 18:00 -- 2015-10-13 Tue 20:00 @  2.00
+:END:
+
+*** Some highlights:
+ - *how does the smart sensor program fit in with data privacy issue: "the city will not be collecting info that they need".*\\\\
+ http://www.govtech.com/data/Smart-Cities-Understanding-the-Untapped-Value-of-Sensor-Data.html
+ - It seems like the initiative is to "measure everything in the public", which seems antithetical to one of the core tenants of Seattle's new policy.\\
+ - *Desire to get more low income, minority, and lgbt members on the CTAB board. Also want OpenSeattle folks on the CTAB board*\\
+ - *Question:* Is Comcast required to deliver any kind of standardized service for their "free internet" program for the working poor? If there are no minimum service requirements, or if the requirement is really low like ~5 -10Mb/s, then wouldn't it be more trouble than it's worth for the recipients? Could it be wasting their time? Or looping them into dependency on "free internet" until they need more?\\
+
+*** Intros, agenda approval, tweeting the meeting
+msis - port mgmt system - seattle IT helps with that
+spd - data analytics platform
+
+*** Minutes approval
+*** Chief Technology Officer Update - Michael Mattmiller
+msis - port mgmt system - seattle it helps with that\\
+spd - data analytics platform\\
+*privacy program:*\\
+ - new chief privacy officer role\\
+ - data anonymization - city will not be collecting info that they need\\
+*question: David Robinson w/ Seattle privacy coalition*
+ - wondering how ATF cameras got onto SCL poles scl: "it was more informal agreement, and scl didn't notify anyone about the equipment. Just allowing them to use the poles."\\
+ - FIT list - issue with anonymous person accessing the list and not getting removed\\
+ - seattle.gov/privacy\\
+Mike's response - less of a tech problem than an "education opportunity"\\
+*question: should we extend the privacy rights? How does Comcast fit in? what about organizations that the city funds (ie homeless organizations...)?*\\
+ - comcast every quarter has to share data privacy practices\\
+*question: tim w/ spd: what about a transparency officer?*\\
+ - Urban @ UW is providing guidance about this initiative\\
+ - push transparent info, public pulls info, and leakage\\
+ - at 429 datasets\\
+ - 6th on CfA's open data census\\
+ - performance.seattle.gov to see how projects are performing \\
+ - gov's should be more API and less RFP\\
+*question: smart cities*\\
+ - metrolab - driving "smart cities". Working on universities and urban center partnerships\\
+ - Tayeza Way(?) is director, along w/ Bill Howe\\
+*** Announcements
+10/24 Meadow Community Center
+*** Seattle Channel Diversity Report: John Giamberso
+counting number of people of color on their shows to make sure diverse groups are adequately covered\\
+*Question: how do we specifically define underserved communities? How can we count them if we can't define them?*\\
+John: "producers go out and identify them on their own"\\
+*** Cable and Broadband Committee: Amy Hirotaka
+meeting has been moved for this month\\
+*** Digital Inclusion Committee: Jose Vasquez
+next meeting Tuesday 6pm at Beacon Hill Library\\
+*** Networking Break
+*** Privacy Committee: Beryl Fernandes
+*** E-Gov Committee: Joneil Sampana
+ - Full Contact gathering hosted by WTIA to create solutions among colleagues. ~12 action teams working on specific social issues\\
+ - Coming together from different sectors - Urban @ UW\\
+ - Seattle id'd as a Smart City by white house. Will be awarded a sensor in April. (smart sensor network?) Kickoff on 10/29\\
+ - Are htese sensors lidar?\\
+ - Rules of Engagement shared\\
+ - 320 Wlake, 4th Tuesday of every month\\
+*question: are the geographic distribution of the find it fix it reports?*\\
+
+*question: how does the smart sensor program fit in with data privacy issue: "the city will not be collecting info that they need".*\\
+
+*** Board development: member composition, needs, review of past recruitment announcement, ideas for publicizing.
+Need more 35+ members, lgbt/colored/low-income ppl
+members from Amazon/Google and big companies
+Open Seattle members on the board
+voted in by board vs recommended
+*** CTAB Administration: Nourisha
+*** (including Action items send-out, minutes, podcast, December meeting and elections, planning for remote participation).
+Voting on whether to hold a December meetings
+
+*** Additional Public Comment
+*** Summary of action, to do's & next meeting items
+self-driving car with Matmiller
+Board positions - chair/vice-chair issue
+chair/vice chair for board consideration
+
 ** Monthly CTAB 2015.09.08
 *** timelog
 :LOGBOOK:
@@ -185,6 +270,24 @@ Greta - Is there a way to negotiate with Comcast to make 25 or 50 Mb/s the minim
  - explore potential actions to take for Christopher's facial recognition system\\
 
 * Weekly Timesheet
+** 2015 week #42: October 12 - October 18
+#+BEGIN: columnview :hlines 1 :id global
+| /Project/ |  Mon |  Tue |  Wed |  Thu |  Fri |  Sat |  Sun | /Total/ |
+|-----------+------+------+------+------+------+------+------+---------|
+| CTAB      |      | 2.00 |      |      |      |      |      |    2.00 |
+|-----------+------+------+------+------+------+------+------+---------|
+| /Daily/   | 0.00 | 2.00 | 0.00 | 0.00 | 0.00 | 0.00 | 0.00 |    2.00 |
+#+TBLFM: @2$9..@-1$9=vsum($2..$8);%.2f;::@>$2..@>$9='(format "%3.2f" (apply '+ '(@2..@-1)));N;
+#+END:
+** 2015 week #40: September 28 - October 04
+#+BEGIN: columnview :hlines 1 :id global
+| /Project/   |  Mon |  Tue |  Wed |  Thu |  Fri |  Sat |  Sun | /Total/ |
+|-------------+------+------+------+------+------+------+------+---------|
+| OpenSeattle |      |      |      | 3.75 |      |      |      |    3.75 |
+|-------------+------+------+------+------+------+------+------+---------|
+| /Daily/     | 0.00 | 0.00 | 0.00 | 3.75 | 0.00 | 0.00 | 0.00 |    3.75 |
+#+TBLFM: @2$9..@-1$9=vsum($2..$8);%.2f;::@>$2..@>$9='(format "%3.2f" (apply '+ '(@2..@-1)));N;
+#+END:
 ** 2015 week #38: September 14 - September 20
 #+BEGIN: columnview :hlines 1 :id global
 | /Project/   |  Mon |  Tue |  Wed |  Thu |  Fri |  Sat |  Sun | /Total/ |
@@ -214,13 +317,3 @@ Greta - Is there a way to negotiate with Comcast to make 25 or 50 Mb/s the minim
 #+TBLFM: @2$9..@-1$9=vsum($2..$8);%.2f;::@>$2..@>$9='(format "%3.2f" (apply '+ '(@2..@-1)));N;
 #+END:
 
-** 2015 week #40: September 28 - October 04
-#+BEGIN: columnview :hlines 1 :id global
-| /Project/   |  Mon |  Tue |  Wed |  Thu |  Fri |  Sat |  Sun | /Total/ |
-|-------------+------+------+------+------+------+------+------+---------|
-| OpenSeattle |      |      |      | 3.75 |      |      |      |    3.75 |
-|-------------+------+------+------+------+------+------+------+---------|
-| /Daily/     | 0.00 | 0.00 | 0.00 | 3.75 | 0.00 | 0.00 | 0.00 |    3.75 |
-#+TBLFM: @2$9..@-1$9=vsum($2..$8);%.2f;::@>$2..@>$9='(format "%3.2f" (apply '+ '(@2..@-1)));N;
-#+END:
-* Timesheet
