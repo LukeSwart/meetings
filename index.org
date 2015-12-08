@@ -1,4 +1,3 @@
-
 #+TITLE: Public Meeting Notes
 # -*- mode: org -*-
 #+INFOJS_OPT: view:overview toc:true
@@ -32,9 +31,235 @@
 #+PROPERTY: BillTo2 PO Box 80021
 #+PROPERTY: BillTo3 Seattle, WA USA
 
-* OpenSeattle
+* Conferences
+** SeaGL 2015.10.24
+*** Allison Randal - Philosophy of Free Software
+Free software is not a worse option, but a luxury option\\
+When an organization often outlives the vendor, free software is ever more important\\
+debconf 2015 talk recorded: https://www.youtube.com/watch?v=wb0iUMv_ATM&feature=youtu.be\\
+
+*** Shauna gordon-McKeon Keynote
+Beneath the Code, the Heart\\
+*contributing*\\
+Think Aloud\\
+have users speak aloud as they are testing\\
+\\
+People often get frustrated on give up on contribuiting\\
+ - Poorly specified dev environments, unknown tools, expectations to be familiar with the tools\\
+ - OpenHatch example - user testing and feedback on contributing to a project\\
+ - WelcomeBot - if new person comes in w/ unknown name, after ~60 seconds, a welcome message is sent\\
+\\
+*Respecting the skill of teaching*\\
+teaching is often regarded as feminine\\
+\\
+by actively valuing education, we can make sure that people who want to teach will be teaching\\
+ - Google Summer of Code! - (mentors are paid)\\
+ - Project Ascend\\
+ - Other FOSS workshops and programs\\
+   \\
+myth of self-taught programmer\\
+active vs reflective learning - foss is more active\\
+diving into problems, thinking aloud vs taking a step back\\
+Getting comfortable in the space is an important step\\
+\\
+Inclusivity - blind/handicapped, non-english contributors, people with hardware/software limitations (ie using a company's pc)\\
+\\
+*Money*\\
+community base is often well-off financially, or struggling to pay itself\\
+Comapnies (RedHat), Projects (Django, Drupal), organizations (non-profits)\\
+majority of FOSS contributors are unpaid\\
+people view free software often as a gift economy - money can warp things, why should some pple get paid while others work for free, \\
+ - concept of "fairness"\\
+ - Value of an hour of time from someone struggling to pay rent vs hour of time from someone who would otherwise play video games    \\
+No robust model of paying ppl\\
+Marrying financial security \\
+organizations trying to experiment: crowdfunding platforms (snowdrift, experiment.com, knight foundation, sunlight foundation, PSF / Django, linux foundation)\\
+\\
+*Free software often is less diverse - white/male/well-educated*\\
+Saying you support vs actually supporting - only interacting on skills and interests alone vs looking at the whole picture\\
+"leaky abstraction" - all non-trivial abstractions are leaky in some ways "we will take care of your data anywhere in the world, but oops, data center got flooded and your data is now lost"\\
+Provide resources and support for people outreaching to their communities - ie lack of childcare at conferences, etc\\
+Undervaluing diversity in communities\\
+"intersectionality"\\
+ - contributors worry that leaving a bug report will be disrespectful\\
+
+
+
+*** RMS keynote
+program controls the users, or users control the program - there is no other way\\
+Free software is the latter \\
+\\
+users need to get the source code to understand a program. It's nearly impossible to understand a program from the binary executable\\
+\\
+Most users are not programmers - but we can still have collective control. non-programmers and work together when they want to, but they don't have to.\\
+\\
+4 freedoms... (in reality, there should probably be 100's of freedoms if you wanna get specific and legal). "free software is an equal and opposite reaction to attempts at proprieterizing programs"\\
+\\
+sharing is good and loyal. Need to reject the proprietary definition of piracy\\
+"pirates are the moral-equivalent is the moral equivalent of attacking ships"\\
+Any law to stop ppl from sharing is lacking in moral authority\\
+\\
+proprietary companies add software that often is against the interest of the user\\
+amazon "swindle" - transmits the book being read and the page number\\
+\\
+Blu-ray is enemy of your freedom - free software never figured out blu-ray "digital rights/restriction management" depending on which side you are on. DRM should be a crime\\
+\\
+aws swindle has a backdoor to erase copies of a book - they deleted copies of 1984. After criticism, they promised not to do it again, "unless ordered by the state".\\
+\\
+Backdoors are found in many proprietary programs.\\
+\\
+Jails programs - can only install programs that are approved by apple. Censorship is often practiced in an arbitrary manner by Apple. MS imitated apple, and windows mobile devices are essentially jails\\
+\\
+universal backdoors - windows can remotely change the code. Since XP, windows has a backdoor. MS did not admit that XP had a backdoor, but users figured it out. MS openly states that windows 10 has a universal backdoor. \\
+\\
+Google and install any application - not universal, but still a backdoor.\\
+\\
+MS allows NSA to view all individual's application. MS is making proprietary software.\\
+\\
+Proprietary software comes with proprietary malware.\\
+\\
+Not possible to corroborate the source code of proprietary "open source" code. But there are a few instances of free software with malware features (Ubuntu by canonical snoops on the user via search bar)\\
+\\
+Ethical standards of proprietary devs are so low that they have not shame. Windows 10 can look at any file on the machine. Conferences where proprietary corp's show off new ways of mistreating their users.\\
+\\
+*RMS's history of free software*\\
+in 1992, all GNU was there, but kernal missing. Proprietary Linux kernal, which switched to free license in '92. It is the gnu/linux system. Give equal mention to gnu + linux, instead of whole system as "linux".\\
+\\
+over 1000 distros of gnu/linux. almost all of them have nonfree components: gnu.org/distros non-free distros have effect on community. Not all distros (ubuntu) list whether the system is free. How do we base our values? We bas our actions and values on the vlaues. The way to spread freedom is to appreciate and preach freedom.\\
+\\
+librejs - analyzes all js programs and the webpages you visit. if nontrivial and non-free, it blocks the program. Allows ppl to send a complaint. Important for webmasters to fix their site. \\
+\\
+*"SAAS" - "service as a software substitute"*\\
+User sends all params to server, server sends data back to user. User still has no control over server code. Either way, server has your data...\\
+SAAS is inherintly equivalent to a proprietary program that snoops on a user. You cannot modify it, so it's not free. If it was running on your own remote server, then it might be free (but need to check with the host and prevent big brother)\\
+Avoid SAAS for your freedom's sake.\\
+\\
+*Free software licensing*\\
+copyright by default denies users the 4 freedoms\\
+Only way to make it free, is a declaration by copyright holders giving user's their freedom.\\
+free software license is what makes their programs free\\
+non-licensed programs (github license default), is non-free license\\
+FSF released "ethical criteria for software repos"\\
+CopyLeft and non-copyleft\\
+copyleft is a condition on freedoms 2 & 3\\
+All middle men must adhere to previous to contributors \\
+"weak pushover licenses" - non-copyleft\\
+MIT "expat license" and x11 license\\
+they all permit making non-free versions of the code. You can do more good by releasing it under copyleft.\\
+When Apple etc companies show up to schools to recruit, provide licenses, etc. we should picket them.\\
+"open-source" - coined term to talk about free software without raising ethical issue. Omitted entire ethical issue of free software, representing no other values other than convenience. "it is you moral duty to let users change/modify it" vs "it may be in your best interest to change/modify". At practical level almost equivalent.\\
+\\
+tivo-ization - won't let devices run programs that have been modified or that don't match their signature. Android has not gnu, only linux. Although source code is free, executable is not. At level of philosophy, they are about as different as you can get. In 1998, almost all companies supported open-source - politicians followed.\\
+\\
+*Open-source and other terms*\\
+Don't use FOSS/Open-source/etc\\
+FOSS was trying to be neutral - free software is split, but "open-source" is not split. Is not clear. FLOSS is more neutral. Your dentist will agree.\\
+\\
+*proprietary programs and education*\\
+Here is a proprietary program that you need and it works - run it and shut up\\
+ie bootkits\\
+Reverse engineering is the best way to make a contribution.\\
+Schools should teach exclusively free software, and civic ideas of free software. Should set a good example by using only free software.\\
+Gratis non-free software == gratis cigarettes\\
+All code in class must be shared. Proprietary only allowed when reverse engineering.\\
+School should teach reverse-engineering.\\
+Free software support education, and supports education. Unfortunately, our schools go in the opposite direction. (is G search engine and gmail free software?)\\
+Freedom sometimes requires a sacrifice. These days are often inconveniences that are social pressures.\\
+\\
+*resources*\\
+gnu.org/licenses\\
+gnu.org/philosophy\\
+gnu.org/gnu\\
+gnu.org/distros\\
+fsf.org - resources for distributing and developing free software, political movements, etc\\
+alt.religion.emacs\\
+support carbonwa.org\\
+\\
+rms@gnu.org\\
+gnu@gnu.org\\
+\\
+Dr. Stallman will be speaking this Monday at UW 3pm-5pm\\
+
+* OpenSeattle & Friends
 Repo here (contributions welcome!): \\
 https://github.com/LukeSwart/meetings.git \\
+
+** OSM 2015.12.05
+Met Paul Norman - OSM dev (penorman@mac.com)\\
+Discuss stylings with Paul - cartocss vs new mapbox tiles\\
+Talk with Clint about community mapping events like kayaking the duwamish or hiking the streams and using mapillary to stitch together street views - this could be a very fun and engaging event.\\
+Some challenges with OSM community mapping events on Duwamish:\\
+ - Getting the equipment and mounts for kayaks\\
+ - Renting the kayaks and paying for it\\
+ - The cameras need to be waterproof, with GPS ability. (Waterproof phone cases? GoPro's synced with a GPS device?)\\
+ - To capture good info, we want at least one camera up front and one behind the kayak. A camera on each side might also be nice.\\
+ - A less fun, but possibly more productive event is to get on a boat and just take pictures. (this might be a good way to start mapping the Duwamish with Mapillary)\\
+   \\
+Timeslider idea is cool (ie io.morphocode.com), but Paul is pessimistic about getting the building footprint info. NYC does a good job, but Seattle may not have it.\\
+
+resources: mapillary, osm.org
+*** timelog
+:LOGBOOK:
+CLOCK: [2015-12-05 Sat 12:24]--[2015-12-05 Sat 15:25] => 2015-12-05 Sat 12:15 -- 2015-12-05 Sat 15:30 @  3.25
+:END:
+
+** Open Seattle Orientation 2015.12.03
+Jon presents Bernie Sanders\\
+http://www.meetup.com/openseattle/events/226810900/\\
+Troy Wolfe presents https://github.com/JustOpenSource\\
+Dan M presents https://www.prontocycleshare.com/datachallenge\\
+*** timelog
+:LOGBOOK:
+CLOCK: [2015-12-03 Thu 17:30]--[2015-12-03 Thu 21:00] => 2015-12-03 Thu 17:30 -- 2015-12-03 Thu 21:00 @  3.50
+:END:
+
+
+** CUGOS 2015.11.18
+*** timelog
+:LOGBOOK:
+CLOCK: [2015-11-18 Wed 17:55]--[2015-11-18 Wed 20:12] => 2015-11-18 Wed 17:45 -- 2015-11-18 Wed 20:15 @  2.50
+:End:
+
+*** peter keum CSO talk
+SPU has ~100 CSO's - where is this info?\\
+CSO's - 90% stormwater, + 10% sewer\\
+Mississippi drinks water recycled ~10 times\\
+Feedback from SPU - "it wasn't enterprisey enough"\\
+*** Derek Huling - geopy
+set point of relative searching - ocean park town in WA example\\
+*** Karsten Vennemann - International Agriculteral Research
+working with mcknight foundation\\
+collaborative crop research program (CCRP)\\
+
+** Open Project Night 2015.11.17
+Onboarding AlexBis987 with localhost\\
+Onboarding another contributor (nodejs guy)\\
+Jacob onboards another guy (Travis?)\\
+*** timelog
+:LOGBOOK:
+CLOCK: [2015-11-17 Tue 17:55]--[2015-11-17 Tue 20:30] => 2015-11-17 Tue 17:45 -- 2015-11-17 Tue 20:30 @  2.75
+:END:
+
+** Open Project Orientation 2015.11.05
+Evie presents her CopQuest game: http://www.vergeofbrilliance.com/copquestgame/\\
+Seth presents Popup Arcade\\
+Jacob presents Hey Duwamish\\
+Luke Swart does the intro\\
+Meet Max and Nathaniel and help get up to speed on the Hey Duwamish project\\
+
+*** timelog
+:LOGBOOK:
+CLOCK: [2015-11-05 Thu 17:40]--[2015-11-05 Thu 21:10] => 2015-11-05 Thu 17:30 -- 2015-11-05 Thu 21:15 @  3.75
+:END:
+** Open Project Night 2015.10.20
+Install Linux Mint + XFCE on 20 T420's - woohoo!\\
+help contributors with installing linux on the machines\\
+Demo Pop-up arcade with Seth for Awesome Foundation\\
+Help Julian with site header, git, and pushing code to the repository\\
+*** timelog
+:LOGBOOK:
+CLOCK: [2015-10-20 Tue 17:00]--[2015-10-20 Tue 21:01] => 2015-10-20 Tue 17:00 -- 2015-10-20 Tue 21:00 @  4.00
+:END:
 
 ** Open Seattle Orientation 2015.10.01
 Presented with Christina Montilla at general meetup.\\
@@ -79,6 +304,8 @@ http://cttab.seattle.gov/2015/ \\
 Repo here (contributions welcome!):\\
 https://github.com/LukeSwart/meetings.git \\
 
+** Monthly CTAB 2015.11.10
+Cannot make it due to South Park Neighborhood Meetings, which occur on the 2nd Tuesday of the month as well!\\
 ** Monthly CTAB 2015.10.13
 
 *** timelog
@@ -268,7 +495,47 @@ Greta - Is there a way to negotiate with Comcast to make 25 or 50 Mb/s the minim
  - get access to auto school list and share list\\
  - explore potential actions to take for Christopher's facial recognition system\\
 
+
 * Weekly Timesheet
+
+** 2015 week #47: November 16 - November 22
+#+BEGIN: columnview :hlines 1 :id global
+| /Project/   |  Mon |  Tue |  Wed |  Thu |  Fri |  Sat |  Sun | /Total/ |
+|-------------+------+------+------+------+------+------+------+---------|
+| CUGOS       |      |      | 2.50 |      |      |      |      |    2.50 |
+| OpenSeattle |      | 2.75 |      |      |      |      |      |    2.75 |
+|-------------+------+------+------+------+------+------+------+---------|
+| /Daily/     | 0.00 | 2.75 | 2.50 | 0.00 | 0.00 | 0.00 | 0.00 |    5.25 |
+#+TBLFM: @2$9..@-1$9=vsum($2..$8);%.2f;::@>$2..@>$9='(format "%3.2f" (apply '+ '(@2..@-1)));N;
+#+END:
+** 2015 week #45: November 02 - November 08
+#+BEGIN: columnview :hlines 1 :id global
+| /Project/   |  Mon |  Tue |  Wed |  Thu |  Fri |  Sat |  Sun | /Total/ |
+|-------------+------+------+------+------+------+------+------+---------|
+| OpenSeattle |      |      |      | 3.75 |      |      |      |    3.75 |
+|-------------+------+------+------+------+------+------+------+---------|
+| /Daily/     | 0.00 | 0.00 | 0.00 | 3.75 | 0.00 | 0.00 | 0.00 |    3.75 |
+#+TBLFM: @2$9..@-1$9=vsum($2..$8);%.2f;::@>$2..@>$9='(format "%3.2f" (apply '+ '(@2..@-1)));N;
+#+END:
+** 2015 week #43: October 19 - October 25
+#+BEGIN: columnview :hlines 1 :id global
+| /Project/   |  Mon |  Tue |  Wed |  Thu |  Fri |  Sat |  Sun | /Total/ |
+|-------------+------+------+------+------+------+------+------+---------|
+| Conferences |      |      |      |      |      | 8.50 |      |    8.50 |
+| OpenSeattle |      | 4.00 |      |      |      |      |      |    4.00 |
+|-------------+------+------+------+------+------+------+------+---------|
+| /Daily/     | 0.00 | 4.00 | 0.00 | 0.00 | 0.00 | 8.50 | 0.00 |   12.50 |
+#+TBLFM: @2$9..@-1$9=vsum($2..$8);%.2f;::@>$2..@>$9='(format "%3.2f" (apply '+ '(@2..@-1)));N;
+#+END:
+** 2015 week #43: October 19 - October 25
+#+BEGIN: columnview :hlines 1 :id global
+| /Project/   |  Mon |  Tue |  Wed |  Thu |  Fri |  Sat |  Sun | /Total/ |
+|-------------+------+------+------+------+------+------+------+---------|
+| OpenSeattle |      | 4.00 |      |      |      |      |      |    4.00 |
+|-------------+------+------+------+------+------+------+------+---------|
+| /Daily/     | 0.00 | 4.00 | 0.00 | 0.00 | 0.00 | 0.00 | 0.00 |    4.00 |
+#+TBLFM: @2$9..@-1$9=vsum($2..$8);%.2f;::@>$2..@>$9='(format "%3.2f" (apply '+ '(@2..@-1)));N;
+#+END:
 ** 2015 week #42: October 12 - October 18
 #+BEGIN: columnview :hlines 1 :id global
 | /Project/ |  Mon |  Tue |  Wed |  Thu |  Fri |  Sat |  Sun | /Total/ |
@@ -315,4 +582,3 @@ Greta - Is there a way to negotiate with Comcast to make 25 or 50 Mb/s the minim
 | /Daily/     | 0.00 | 0.00 | 0.00 | 3.75 | 0.00 | 0.00 | 0.00 |    3.75 |
 #+TBLFM: @2$9..@-1$9=vsum($2..$8);%.2f;::@>$2..@>$9='(format "%3.2f" (apply '+ '(@2..@-1)));N;
 #+END:
-
